@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+
+    <script>
+   function callJS(msg){
+      <!--console.log(msg)-->
+      alert("Android调用了JS的callJS方法");
+   }
+
+   function callAndroid(){
+        android.print("js调用了android中的print方法");
+   }
+
+    </script>
+
+</head>
+<body>
+<input type="button" value="调用" onClick="callAndroid()"/>
+</body>
+
+</html>
